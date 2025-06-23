@@ -1,3 +1,7 @@
 1. Create a github repo and clone it
 2. Create mycode.py and add code to it. (It will save a csv file to a new data folder)
-3. 
+3. # pip install dvc
+4. now we do dvc init
+5. now make mdkir s3" (creates new s3 directory)
+6. now we do "dvc remote add -d myremote S3"
+7. 
