@@ -11,4 +11,12 @@
 9. Now - "dvc commit" and then "dvc push"
 10. Now make changes to mycode.py file to append a new row in data, check changes via "dvc status"
 11. Again - - "dvc commit" and then "dvc push"
+12. Then git add commit push (were saving V2 of our data at this point)
+13. check dvc/git status, everything should be up to date
+14. Now repear 10-12 for V3 of data
 
+
+# only useful lines of code after this
+git log --oneline
+git checkout <hash> - git checkout master
+dvc pull
